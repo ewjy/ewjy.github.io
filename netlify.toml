@@ -3,4 +3,4 @@
   to = "/index-zh.html"
   status = 302
   force = true
-  conditions = {Language = ["zh"]}
+  conditions = {Language = ["zh-TW"]}

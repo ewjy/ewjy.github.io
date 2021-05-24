@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/index.html"
   to = "/index-zh.html"
-  status = 301
+  status = 302
   force = true
   conditions = {Language = ["zh"]}

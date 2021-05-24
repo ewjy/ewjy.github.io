@@ -8,7 +8,7 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "default-src 'self'; font-src 'https://tauhu.tw/' 'https://fonts.gstatic.com'; style-src 'https://tauhu.tw/' 'https://fonts.googleapis.com/'"
+    Content-Security-Policy = "default-src 'self'; font-src 'https://tauhu.tw/' 'https://fonts.gstatic.com' 'unsafe-inline'; style-src 'https://tauhu.tw/' 'https://fonts.googleapis.com/' 'unsafe-inline'"
 	X-Content-Type-Options = "nosniff"
 	X-Frame-Options = "DENY"
 	X-XSS-Protection = "1; mode=block"

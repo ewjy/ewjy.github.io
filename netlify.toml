@@ -1,0 +1,7 @@
+[[redirects]]
+  from = "/"
+  to = "/index-zh.html"
+  status = 301
+  force = false
+  query = {path = ":path"}
+  conditions = {Language = ["zh"]}

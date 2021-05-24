@@ -8,7 +8,7 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "default-src 'self' 'unsafe-inline'; font-src 'self' 'https:' 'unsafe-inline'; style-src 'self' 'https' 'unsafe-inline'"
+    Content-Security-Policy = "default-src 'self' 'https:' 'unsafe-inline'; font-src 'self' 'https:' 'unsafe-inline'; style-src 'self' 'https' 'unsafe-inline'; script-src 'self'"
 	X-Content-Type-Options = "nosniff"
 	X-Frame-Options = "DENY"
 	X-XSS-Protection = "1; mode=block"

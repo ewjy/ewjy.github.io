@@ -2,5 +2,5 @@
   from = "/index.html"
   to = "/index-zh.html"
   status = 301
-  force = false
+  force = true
   conditions = {Language = ["zh"]}

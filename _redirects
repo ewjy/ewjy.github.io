@@ -1,0 +1,2 @@
+# Redirect Chinese users
+/ /index-zh.html 301 Language=zh

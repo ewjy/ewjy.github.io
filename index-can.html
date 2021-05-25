@@ -96,7 +96,7 @@
               <div class="col-sm-8" style="font-size: 1.14em;"><script>var birthday=new Date("2000-05-03".replace(/-/g, "\/"));
                 var d=new Date();
                 var age = d.getFullYear()-birthday.getFullYear()-((d.getMonth()<birthday.getMonth()|| d.getMonth()==birthday.getMonth() && d.getDate()<birthday.getDate())?1:0);
-                document.write(age);</script></div>
+                document.currentScript.insertAdjacentHTML('afterend', age);</script></div>
             </div>
             <div class="row mt-3">
               <div class="col-sm-4" style="font-size: 1.14em;"><strong class="text-uppercase">電郵地址</strong></div>

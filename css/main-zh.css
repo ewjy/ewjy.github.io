@@ -25,8 +25,6 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
- @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
-
 .bootstrap-switch {
   display: inline-block;
   direction: ltr;

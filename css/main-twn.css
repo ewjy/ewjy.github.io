@@ -25,8 +25,6 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
- @import url(https://tauhu.tw/tauhu-oo.css);
-
 .bootstrap-switch {
   display: inline-block;
   direction: ltr;
@@ -2937,6 +2935,15 @@ Created using IcoMoon - icomoon.io
   src: url("../fonts/nucleo-outline.eot") format("embedded-opentype"), url("../fonts/nucleo-outline.woff2") format("woff2"), url("../fonts/nucleo-outline.woff") format("woff"), url("../fonts/nucleo-outline.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+
+@font-face{
+  font-family: tauhu-oo;
+  font-display: swap;
+  src: local("TauhuOo20.05-Regular"),
+     url(https://tauhu.tw/TauhuOo20.05-Regular.woff2) format("woff2"),
+     url(https://tauhu.tw/TauhuOo20.05-Regular.woff) format("woff"),
+     url(https://tauhu.tw/TauhuOo20.05-Regular.otf) format("opentype");
+  }
 
 /*------------------------
 	base class definition

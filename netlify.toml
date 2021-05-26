@@ -1,8 +1,8 @@
 [[redirects]]
   from = "/"
   to = "/index-zh.html"
-  status = 301
-  force = false
+  status = 302
+  force = true
   conditions = {Language = ["zh"]}
 
 [[headers]]

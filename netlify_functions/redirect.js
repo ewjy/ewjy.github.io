@@ -1,6 +1,9 @@
 const SUPPORTED_LANGS = {
     "en": "/index.html",
     "zh": "/index-zh.html",
+	"zh-tw": "/index-zh.html",
+	"zh-hk": "/index-zh.html",
+	"zh-cn": "/index-zh.html",
 };
 const DEFAULT_LANG = 'en';
 
